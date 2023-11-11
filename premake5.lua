@@ -1,7 +1,3 @@
-function link_spdlog()
-    defines { "SPDLOG_COMPILED_LIB", "SPDLOG_SHARED_LIB" }
-end
-
 project "spdlog"
     language "C++"
     cppdialect "C++17"
