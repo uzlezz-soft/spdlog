@@ -5,8 +5,7 @@ project "spdlog"
     defines
 	{
 		"_CRT_SECURE_NO_WARNINGS",
-        "SPDLOG_COMPILED_LIB",
-        "SPDLOG_SHARED_LIB"
+        "SPDLOG_COMPILED_LIB"
 	}
 
     includedirs
