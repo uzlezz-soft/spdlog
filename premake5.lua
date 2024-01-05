@@ -1,6 +1,7 @@
 project "spdlog"
     language "C++"
-    cppdialect "C++17"
+	
+	setup_static_lib ()
 
     defines
 	{
